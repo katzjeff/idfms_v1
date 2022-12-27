@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import RegisterUser from "./pages/RegisterUser";
 import UnderConstruction from "./pages/UnderConstruction";
+import Terms from "./pages/Terms";
 
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/register" element={<RegisterUser />} />
         <Route path="/Contact" element={<UnderConstruction />} />
+        <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </div>
