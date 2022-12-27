@@ -4,6 +4,15 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+.hero {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+
+.hero p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
