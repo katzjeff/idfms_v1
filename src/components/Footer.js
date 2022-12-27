@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div>
-      <footer class="p-4 bg-white md:p-8 lg:p-10  dark:bg-gray-900">
+      <footer class="p-4 bg-white md:p-8 lg:p-10  dark:bg-[#162131]">
         <div class="mx-auto max-w-screen-xl text-center">
           <li class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
             IDFMS

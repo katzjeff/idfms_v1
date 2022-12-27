@@ -13,6 +13,15 @@
     font-family: 'Titillium Web', sans-serif;
     font-weight: 200;
 }
+
+.img-contact {
+    background-image: url(./assets/images/contact2.jpg);  
+}
+.img-error {
+    background-image: url(./assets/images/404-computer.svg) ;
+    background-repeat: no-repeat;
+    
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

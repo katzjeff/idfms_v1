@@ -4,12 +4,12 @@ import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
 function SignIn() {
-  let signup = <Link to="/register">Sign Up</Link>
+  let signup = <Link to="/register"></Link>
   return (
     <div>
       <Navbar />
       <>
-        <section class="bg-gray-50 dark:bg-gray-900">
+        <section class="bg-gray-50 dark:bg-gray-900 img-contact">
           <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
             <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
               <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -47,6 +47,7 @@ function SignIn() {
                       <option value=""></option>
                       <option value="admin">Admin</option>
                       <option value="chief officer">Chief Officer</option>
+                      <option value="director">Director</option>
                       <option value="others">Others</option>
                     </select>
                   </div>

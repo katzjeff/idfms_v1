@@ -17,7 +17,7 @@ function RegisterUser() {
                   Sign me up
                 </h1>
                 <form class="space-y-4 md:space-y-6" action="#">
-                <div>
+                  <div>
                     <label
                       for="email"
                       class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -63,6 +63,7 @@ function RegisterUser() {
                       <option value=""></option>
                       <option value="admin">Admin</option>
                       <option value="chief officer">Chief Officer</option>
+                      <option value="director">Director</option>
                       <option value="others">Others</option>
                     </select>
                   </div>
@@ -114,9 +115,9 @@ function RegisterUser() {
                         class="font-light text-gray-500 dark:text-gray-300"
                       >
                         I accept the{" "}
-                        <a href={terms}
+                        <a
+                          href={terms}
                           class="font-medium text-primary-600 hover:underline dark:text-primary-500"
-                          
                         >
                           Terms and Conditions
                         </a>
