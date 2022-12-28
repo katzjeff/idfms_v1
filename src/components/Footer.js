@@ -24,7 +24,7 @@ function Footer() {
             <li class="mr-4 hover:underline md:mr-6">Blog</li>
             <li class="mr-4 hover:underline md:mr-6">FAQs</li>
             <li class="mr-4 hover:underline md:mr-6">
-            <Link to="/Contact">Contact Us</Link>
+              <Link to="/Contact">Contact Us</Link>
             </li>
           </ul>
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">

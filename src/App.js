@@ -5,9 +5,9 @@ import RegisterUser from "./pages/RegisterUser";
 import UnderConstruction from "./pages/UnderConstruction";
 import Terms from "./pages/Terms";
 
-import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import { Routes, Route } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -16,8 +16,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/register" element={<RegisterUser />} />
-        <Route path="/Contact" element={<UnderConstruction />} />
+        <Route path="/contact" element={<UnderConstruction />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/dashboard" element={<Dashboard />}/>
         <Route path="*" element={<Error />} />
       </Routes>
     </div>
