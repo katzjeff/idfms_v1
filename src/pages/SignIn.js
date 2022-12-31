@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
 function SignIn() {
-  let signup = <Link to="/register"></Link>
+  // let signup = <Link to="/register"></Link>
   return (
     <div>
       <Navbar />
@@ -87,7 +87,7 @@ function SignIn() {
                         </label>
                       </div>
                     </div>
-                    <div class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">
+                    <div class="text-sm text-white font-medium text-primary-600 hover:underline dark:text-primary-500">
                       Forgot password?
                     </div>
                   </div>
@@ -99,9 +99,10 @@ function SignIn() {
                   </button>
                   <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                     Don’t have an account yet?
-                    <a href={signup} class="font-medium text-primary-600 hover:underline dark:text-primary-500 cursor-pointer">
-                      Sign me up?
-                    </a>
+                    <div class="font-medium text-primary-600 hover:underline dark:text-primary-500 cursor-pointer">
+                     
+                      <Link to="/register">Contact the Admin</Link>
+                    </div>
                   </p>
                 </form>
               </div>
